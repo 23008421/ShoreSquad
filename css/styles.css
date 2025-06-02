@@ -1,0 +1,96 @@
+/* ShoreSquad Colour Palette
+   - Ocean Blue: #2196F3
+   - Sand Yellow: #FFEB3B
+   - Coral Orange: #FF7043
+   - Seafoam Green: #26A69A
+   - Clean White: #FAFAFA
+   - Charcoal: #263238
+*/
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #FAFAFA;
+  color: #263238;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #2196F3 60%, #26A69A 100%);
+  color: #FAFAFA;
+  padding: 2rem 1rem 1rem 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2rem;
+  background: #FFF;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.08);
+  padding: 1.5rem;
+}
+
+#map {
+  height: 300px;
+  background: #E3F2FD;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2196F3;
+  font-size: 1.2rem;
+}
+
+#weather {
+  background: #FFFDE7;
+  color: #FF7043;
+  padding: 1rem;
+  border-radius: 8px;
+  min-height: 60px;
+}
+
+#join-btn {
+  background: #FF7043;
+  color: #FFF;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#join-btn:hover {
+  background: #FFAB91;
+}
+
+footer {
+  background: #263238;
+  color: #FAFAFA;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1rem 0.5rem;
+  }
+  section {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
