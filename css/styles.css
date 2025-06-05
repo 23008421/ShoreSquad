@@ -53,6 +53,15 @@ section {
   font-size: 1.2rem;
 }
 
+#map > div {
+  margin-top: 0.5rem;
+  color: #2196F3;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
 #weather {
   background: #FFFDE7;
   color: #FF7043;
